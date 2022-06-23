@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Pertama Saya</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <nav class="navi">
+        <img class=tengah src="Images/logo2.png">
+        <ul>
+            <li><a href="home.html">HOME</a></li>
+            <li><a href="profile.html">PROFILE</a></li>
+            <li><a href="kontak.html">CONTACT</a></li>
+        </ul>
+    </nav>
+    <div class="judul2">
+        <h2>CONTACT FORM</h2>
+    </div>
+
+    <div class="kotak" style="margin: auto;">
+        <br>
+        <div class="form">
+            <form action="" onsubmit="return validateForm()" name="formPendaftaran">
+                <p>
+                    Nama : <br>
+                    <input type="text" name="nama" placeholder="Masukkan Nama Anda" id="n1" style="width:450px; height:40px; border-radius: 8px;border: 0px;
+                    ">
+                    <br>
+                    <br>
+                    Email : <br>
+                    <input type="text" name="email" placeholder="Masukkan Email Anda" id="n2" style="width:450px; height:40px; border-radius: 8px; border: 0px;
+                        "><br>
+                    <br>
+                    Pesan : <br>
+                    <textarea name="pesan" id="n3" style="width:450px; height: 75px; border-radius: 8px;
+                "></textarea>
+                </p>
+                <p>
+                <div class="buton">
+                    <input type="button" name="kirim" value="Send" onclick="show()"
+                        style="width:100px;height: 25px; border-radius: 5px;border: 0px;">
+                    <input type="submit" name="reset" value="Reset"
+                        style="width:100px; height: 25px; border-radius: 5px; border:0px">
+                </div>
+                </p>
+                <p id="out" style="color: black;"></p>
+            </form>
+        </div>
+    </div>
+    </object>
+   
+
+    <footer>
+
+        <div class="foot2">
+            <div class="watermark">
+                COPYRIGHT 2022
+            </div>
+        </div>
+    </footer>
+    <script>
+        function validateForm() {
+            if (document.forms["formPendaftaran"]["nama"].value == "") {
+                alert("Nama Tidak Boleh Kosong");
+            }
+            if (document.forms["formPendaftaran"]["email"].value == "") {
+                alert("Email Tidak Boleh Kosong");
+            }
+            if (document.forms["formPendaftaran"]["pesan"].value == "") {
+                alert("Pesan Tidak Boleh Kosong");
+            }
+        }
+        function show(){
+            var x = document.getElementById("n1").value;
+            var y = document.getElementById("n2").value;
+            var z = document.getElementById("n3").value;
+
+            document.getElementById("out").innerHTML =
+                "Nama anda adalah " + x + " Email anda adalah" + y+ " Pesan anda adalah" + z;
+               
+        }
+    </script>
+</body>
+
+</html>

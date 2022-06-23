@@ -1,0 +1,32 @@
+CSS pertama kali bermula sejak munculnya SGML pada tahun 1970an. Sejak kemunculannya tersebut, CSS mengalami perkembangan yang sangat pesat. Format dasar CSS yang banyak kita gunakan sekarang ini merupakan ide dari seoang programmer bernama Hakon Wium Lie yang tertuang dalam proposalnya mengenai Cascading HTML Style Sheet (CHSS) pada bulan Oktober 1994 (dalam konferensi W3C di Chicago, Illinois). Kemudian, beliau bersama-sama dengan seorang temannya yang bernama Bert Bos mengembangkan suatu standard CSS.
+
+Pada akhir tahun 1996, CSS telah resmi dipublikasikan (dan menyusul kemudian CSS Level 1 pada bulan Desember). Pengerjaan proyek ini juga didukung oleh seorang programmer bernama Thomas Reardon dari perusahaan software ternama, Microsoft. CSS digunakan oleh penulis maupun pembaca halaman web untuk menentukan warna, jenis huruf, tata letak, dan berbagai aspek tampilan dokumen. CSS digunakan terutama untuk memisahkan antara isi dokumen (yang ditulis dengan HTML atau bahasa markup lainnya) dengan presentasi dokumen (yang ditulis dengan CSS).
+Pemisahan ini dapat meningkatkan aksesibilitas isi, memberikan lebih banyak keleluasaan dan kontrol terhadap tampilan, dan mengurangi kompleksitas serta pengulangan pada stuktur isi. CSS memungkinkan halaman yang sama untuk ditampilkan dengan cara yang berbeda untuk metode presentasi yang berbeda, seperti melalui layar, cetak, suara (sewaktu dibacakan oleh browser basis-suara atau pembaca layar), dan juga alat pembaca braille. Halaman HTML atau XML yang sama juga dapat ditampilkan secara berbeda, baik dari segi gaya tampilan atau skema warna dengan menggunakan CSS.
+
+External Style Sheet (file CSS berbeda dari file HTML),
+Internal Style Sheet (Kode CSS dipasang di dalam tag head HTML),
+Inline Style Sheet (Kode CSS langsung dipasang di tag HTML, tidak direkomendasikan).
+
+CSS 1
+Pada tanggal 17 Agustus 1996 World Wide Web Consortium (W3C) menetapkan CSS sebagai bahasa pemrograman standard dalam pembuatan web. Tujuannya adalah untuk mengurangi pembuatan tag-tag baru oleh Netscape dan Internet Explorer, karena kedua browser tersebut sedang bersaing mengembangkan tag sendiri untuk mengatur tampilan web.
+
+CSS 1 mendukung pengaturan tampilan dalam hal :
+
+Font (Jenis ketebalan).
+Warna, teks, background dan elemen lainnya.
+Text attributes, misalnya spasi antar baris, kata dan  huruf.
+ Posisi teks, gambar, table dan elemen lainnya.
+ Margin, border dan padiing.
+
+2. CSS 2
+
+W3C menyempurnakan CSS tahap awal dengan menciptakan standard CSS 2 yang menjadi standard hingga saat ini pada tahun1998. Semua atribut dari CSS 1 dimasukkan dan diperluas dengan penekanan pada International Accessibiality and Capacibilty kususnya media-specific CSS. CSS 2 dikembangkan untuk memenuhi kebutuhan terhadap format dokumen agar bisa ditampilkan di printer.
+
+3. CSS 3
+
+CSS 3adalah versi terbaru dari CSS yang mampu melakukan banyak hal dalam mendesain website. CSS 3 dapat melakukan animasi pada halaman website, diantaranya animasi warna dan animasi 3D. Desainnya yang memudahkan dalam hal kompatibilitas websitenya pada smartphone dengan dukungan fitur baru yakni media query. Selain itu, banyak fitur baru pada CSS 3 yaitu : Multiple background, border-radius, drop-shadow, border-image, CSS-Math dan CSS Object Model.
+
+Fitur terbaru CSS 3 :
+Animasi, sehingga pembuatan animasi tidak memerlukan program sejenis Adobe Flash dan Microsoft Silverlight.
+Beberapa efek teks, seperti teks berbayang, kolom koran dan “Word-Wrap”.
+Beberapa efek pada kotak, seperti kotak yang ukurannya dapat diubah-ubah, transformasi 2 dimensi dan 2 dimensi, sudut-sudut yang tumpul dan bayangan.

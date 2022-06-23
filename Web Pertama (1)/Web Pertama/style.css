@@ -1,0 +1,167 @@
+img.tengah {
+    height: 45px;
+    left: 150px;
+    position: absolute;
+    top: 3px;
+    width: 85px;
+}
+
+a {
+    font-family: sans-serif;
+    font-size: 15px;
+    margin-top: 50px;
+    padding: 14px 30px;
+    text-decoration: none;
+}
+
+ul {
+    color: white;
+    margin-right: 50px;
+    margin-top: 50px;
+    padding: 14px;
+    text-align: right; 
+}
+
+li {
+    display: inline;
+    list-style: none;
+}
+
+li a {
+    background: rgb(255, 0, 0);
+    color: #ffffff;
+}
+
+li a:hover {
+    background: #900707;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.navi {
+    background: rgb(255, 0, 0);
+    height: 50px;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-top: -50px;
+}
+
+.poster {
+    border: 6px solid red;
+    display: block;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+    width: 800px;
+}
+
+.judul {
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.teks {
+    border: 0;
+    margin-top: 0px;
+    position: absolute;
+    right: 115px;
+}
+.logo{
+    bottom: 130px;
+    left: -425px;
+    position: absolute;
+}
+.judulcss{
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-top: 620px;
+    text-align: center;
+}
+.teks2{
+    border: 0;
+    margin-top: 0px;
+    position: absolute;
+    right: 115px;
+}
+.foot {
+    background-color: rgb(255, 0, 0);
+    bottom: 0;
+    font-family: sans-serif;
+    height: 30px;
+    margin-bottom: -1100px;
+    margin-left: -8px;
+    margin-right: -8px;
+    position: absolute;
+    width: 100%;
+}
+.watermark{
+    color: #ffffff;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+.judul2{
+    font-family: sans-serif;
+    margin-top: 50px;
+    text-align: center;
+}
+.kotak{
+    background: rgb(255, 0, 0);
+    border: 3px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgba(67, 67, 67, 0.8);
+    height: 325px;
+    margin-top: -10px;
+    padding: 10px;
+    width: 500px;
+}
+.form{
+    color: #ffffff;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-bottom: 1px;
+    margin-top: -20px;
+}
+.buton{
+    margin-left: 250px;
+}
+.foot2{
+    background-color: rgb(255, 0, 0);
+    bottom: 0;
+    height: 30px;
+    margin-bottom: -10px;
+    margin-left: -8px;
+    margin-right: -8px;
+    position: absolute;
+    width: 100%;
+}
+
+.judul3{
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.tabel{
+    font-family: sans-serif;
+    margin-top: -50px;
+}
+
+.foot3{
+    background-color: rgb(255, 0, 0);
+    bottom: 0;
+    font-family: sans-serif;
+    height: 30px;
+    margin-bottom: -135px;
+    margin-left: -8px;
+    margin-right: -8px;
+    position: absolute;
+    width: 100%;
+}
+ 
+
+
+
